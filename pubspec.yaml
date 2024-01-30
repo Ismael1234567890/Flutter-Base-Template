@@ -60,6 +60,7 @@ dependencies:
   flutter_spinkit: ^5.2.0
   #audio
   # Splash Screen first
+  # dart run flutter_native_splash:create --path=flutter_native_splash.yaml
   flutter_native_splash: ^2.3.2
 
   #------ Debug & Test --------#
@@ -81,7 +82,7 @@ dev_dependencies:
 
   #change package name: flutter pub run change_app_package_name:main com.package.name
   change_app_package_name: ^1.1.0
-  
+
 #pour changer l'icon de l'application  
 # icons_launcher:
 #   image_path: "assets/logo/wallpaper.png"
