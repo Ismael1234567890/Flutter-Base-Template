@@ -1,4 +1,4 @@
-package com.example.templateproject
+package io.aikyo.wallpaper
 
 import io.flutter.embedding.android.FlutterActivity
 

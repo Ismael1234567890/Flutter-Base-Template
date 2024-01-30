@@ -16,6 +16,7 @@ publish_to: "none" # Remove this line if you wish to publish to pub.dev
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
+# # #change package name: flutter pub run change_app_package_name:main com.package.name
 version: 1.0.0+1
 
 environment:
@@ -47,10 +48,9 @@ dependencies:
   shared_preferences: ^2.2.2
   permission_handler: ^10.0.0
   #------- firebase -----------#
-  cloud_firestore: ^4.12.0
-  firebase_core: ^2.20.0
-  firebase_storage: ^11.4.1
-  firebase_messaging: ^14.7.4
+  firebase_core: ^2.24.2
+  firebase_storage: ^11.6.0
+  firebase_messaging: ^14.7.10
   #-------- UI ----------------#
   flutter_svg: ^2.0.7
   flutter_screenutil: ^5.8.4
@@ -78,6 +78,7 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
+  change_app_package_name: ^1.1.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
