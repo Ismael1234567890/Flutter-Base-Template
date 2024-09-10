@@ -27,7 +27,7 @@ class _MyHomePageState extends State<MyHomePage> {
         actions: [
           IconButton(
             onPressed: () {
-              showCustomLoading(type: TypeLoading.pouringHourGlassRefined);
+              Utils.changeLangue(Langue.fr);
             },
             icon: const Icon(Icons.translate),
           ),

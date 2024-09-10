@@ -1,6 +1,6 @@
 import 'dart:io';
-import 'package:templateproject/configs/injectiondepency/injection.dart';
-import 'package:templateproject/services/locals/local_storage_service.dart';
+import '/configs/injectiondepency/injection.dart';
+import '/services/locals/local_storage_service.dart';
 
 import '/constants/app_export.dart';
 
