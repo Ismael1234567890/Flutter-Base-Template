@@ -21,13 +21,13 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "home",
+          "home".tr,
           style: TextStyle(color: AppColors.whiteColor),
         ),
         actions: [
           IconButton(
             onPressed: () {
-              Utils.changeLangue(Langue.fr);
+              Utils.changeLangue(Langue.en);
             },
             icon: const Icon(Icons.translate),
           ),
@@ -40,21 +40,26 @@ class _MyHomePageState extends State<MyHomePage> {
         ],
       ),
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Text(
-              'You have pushed the button this many times:',
-              style: TextStyle(color: AppColors.blackColor, fontSize: 18),
-            ),
-            const SizedBox(
-              height: 20,
-            ),
-            Text(
-              '$_counter',
-              style: TextStyle(color: AppColors.accentColor, fontSize: 32),
-            ),
-          ],
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: <Widget>[
+              Text(
+                'You have pushed the button this many times:'.tr,
+                textAlign: TextAlign.center,
+                style: TextStyle(color: AppColors.blackColor, fontSize: 18),
+              ),
+              const SizedBox(
+                height: 20,
+              ),
+              Text(
+                '$_counter',
+                style: TextStyle(color: AppColors.accentColor, fontSize: 32),
+              ),
+            ],
+          ),
         ),
       ),
       floatingActionButton: FloatingActionButton(
